@@ -40,11 +40,13 @@ body {
 }
 
 /* using flex to layout card components */
+/* align the buttons */
 .emoji {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 /* change the order */
 .emoji .icon {
@@ -54,11 +56,4 @@ body {
 
 .emoji h2 {
     order: 0
-}
-
-/* align the buttons */
-
-.emoji a {
-    align-self: flex-end;
-    width: 92%;
 }
